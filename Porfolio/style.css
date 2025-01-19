@@ -1,0 +1,86 @@
+.navbar-brand {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.dropdown-menu {
+    border-radius: 8px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown-item:hover {
+    background-color: #ff6f61;
+    color: white;
+}
+
+.dropdown-menu-end {
+    right: 0;
+    left: auto;
+}
+
+.profile-img {
+    max-width: 420px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.profile-img:hover {
+    transform: scale(1.1);
+}
+
+.box1 {
+    color: rgb(60, 57, 57);
+    transition: 1s;
+    border: 1px solid gainsboro;
+}
+
+.box1:hover {
+    transform: scale(1.2);
+    background: rgb(140, 199, 241);
+    box-shadow: 2px 2px 2px black;
+    z-index: 2;
+}
+
+.portfolio-item {
+    transition: 1s;
+}
+
+.portfolio-item:hover {
+    transform: scale(1.2);
+    z-index: 2;
+}
+
+footer .container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+footer p {
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+footer a {
+    font-size: 1.2rem;
+    color: #eaeaea;
+    text-decoration: none;
+    margin: 0 15px;
+    padding: 5px 0;
+    transition: all 0.3s ease;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    transform: scale(1.1);
+}
+
+footer .bi {
+    font-size: 1.5rem;
+    margin-right: 10px;
+    transition: transform 0.3s ease;
+}
+
+footer .bi:hover {
+    transform: scale(1.2);
+}
